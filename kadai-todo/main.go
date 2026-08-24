@@ -49,8 +49,8 @@ func main() {
 	printTodos(todos)
 
 	// IDが1・2のToDoアイテムをComplete()メソッドで完了状態に更新
-	todo1.Complete()
-	todo2.Complete()
+	todos[0].Complete()
+	todos[1].Complete()
 
 	// printTodos()関数にtodosスライスを渡し、最終的なToDoリストを表示
 	printTodos(todos)
